@@ -3,7 +3,7 @@ library(tidyverse)
 library(limma)
 library(edgeR)
 
-#GSE192709合并GSaE1010（高脂血症+动脉粥样硬化）、GSE53146合并GSE75819（白癜风）
+
 GSE <- "GSE255070"
 # GEO_file <-  AnnoProbe::geoChina(gse)
 GEO_file <- getGEO(GSE,destdir = '.',AnnotGPL = T,getGPL = T)
